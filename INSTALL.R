@@ -1,0 +1,17 @@
+if (!require("devtools")) install.packages("devtools") # to install
+devtools::install_github("rystanley/genepopedit") 
+library(genepopedit) # load the library
+install.packages("devtools")
+library(devtools)
+install_github("thierrygosselin/radiator")
+install.packages(c("fields","RColorBrewer","mapplots","reshape2","ggplot2","plotly"))
+source("http://bioconductor.org/biocLite.R")
+biocLite("LEA")
+source("http://membres-timc.imag.fr/Olivier.Francois/Conversion.R")
+source("http://membres-timc.imag.fr/Olivier.Francois/POPSutilities.R")
+source("http://bioconductor.org/biocLite.R")
+biocLite("gdsfmt")
+biocLite("SNPRelate")
+library("devtools")
+install_github("zhengxwen/gdsfmt")
+install_github("zhengxwen/SNPRelate")
